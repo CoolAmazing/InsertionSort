@@ -1,5 +1,7 @@
 var array = [String]()
 
+
+
 func insertionSort(_ array: inout [String]){
     var a = array
     var swap = 0

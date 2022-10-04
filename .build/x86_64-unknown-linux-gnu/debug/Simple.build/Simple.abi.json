@@ -1,0 +1,70 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Var",
+      "name": "array",
+      "printedName": "array",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.String]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:6Simple5arraySaySSGvp",
+      "mangledName": "$s6Simple5arraySaySSGvp",
+      "moduleName": "Simple",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Function",
+      "name": "insertionSort",
+      "printedName": "insertionSort(_:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.String]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "paramValueOwnership": "InOut",
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:6Simple13insertionSortyySaySSGzF",
+      "mangledName": "$s6Simple13insertionSortyySaySSGzF",
+      "moduleName": "Simple",
+      "funcSelfKind": "NonMutating"
+    }
+  ],
+  "json_format_version": 6
+}
