@@ -1,22 +1,32 @@
-var array = [String]()
+var words = [String]()
 
+func readWords() -> [String] {
+    var line : String?
+    repeat {
+        line = readLine()
+        if line != nil {
+            words.append(line!)
+        }
+    } while line != nil
+    return words
+}
 
-
-func insertionSort(_ array: inout [String]){
-    var a = array
-    var swap = 0
-    var swapCount = 0
+func insertionSort(_ array: [String]) -> [String]{
+    var a = readWords()
     for x in 0..<a.count {
         var y = x
         let temp = a[y]
         while y > 0 && temp < a[y - 1] {
             a[y] = a[y - 1]
             y -= 1
-            swap += 1
           }
         a[y] = temp
-        swapCount += swap
-        print("Pass: \(x), Swaps: \(swap)/\(swapCount), Array: \(a)")
-        swap = 0
-     }
+    }
+    return a
+}
+
+let a = insertionSort(words)
+
+for x in a {
+    print(x)
 }
