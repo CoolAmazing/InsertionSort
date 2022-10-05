@@ -13,7 +13,7 @@ func readWords() -> [String] {
 
 func insertionSort(_ array: [String]) -> [String]{
     var a = readWords()
-    for x in 0..<a.count {
+    for x in 1..<a.count {
         var y = x
         let temp = a[y]
         while y > 0 && temp < a[y - 1] {
