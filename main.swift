@@ -6,7 +6,7 @@ func insertionSort(_ array: inout [String]){
     var a = array
     var swap = 0
     var swapCount = 0
-    for x in 0..<a.count {
+    for x in 1..<a.count {
         var y = x
         let temp = a[y]
         while y > 0 && temp < a[y - 1] {
