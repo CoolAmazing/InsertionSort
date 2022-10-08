@@ -3,7 +3,7 @@ var words = [String]()
 func readWords() -> [String] {
     var line : String?
     repeat {
-        line = readLine()
+        line = readLine()?.lowercased()
         if line != nil {
             words.append(line!)
         }
@@ -27,6 +27,7 @@ func insertionSort(_ array: [String]) -> [String]{
 
 let a = insertionSort(words)
 
-for x in a {
+/**for x in a {
     print(x)
 }
+**/
