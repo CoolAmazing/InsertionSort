@@ -27,7 +27,6 @@ func insertionSort(_ array: [String]) -> [String]{
 
 let a = insertionSort(words)
 
-/**for x in a {
+for x in a {
     print(x)
 }
-**/
